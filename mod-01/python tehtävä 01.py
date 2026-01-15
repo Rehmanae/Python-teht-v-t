@@ -1,2 +1,2 @@
-sade = float(input("Säde: "))
-print(3.14 * sade * sade)
+nimi = input("Hei! Mikä sun nimi on? ")
+print("Moikka, ")
