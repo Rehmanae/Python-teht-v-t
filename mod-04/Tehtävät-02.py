@@ -1,6 +1,7 @@
-tuuma = 0
+
+tuuma = float(input("Anna tuuma: "))
+
 while tuuma >= 0:
-    tuuma = float(input("Anna tuumat: "))
-    if tuuma >= 0:
-        cm = tuuma * 2.54
-        print(cm, "cm")
+    print(f"{tuuma} tuumaa on {tuuma * 2.54} cm. ")
+
+    tuuma = float(input("Anna tuuma: "))
