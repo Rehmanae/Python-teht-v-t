@@ -15,7 +15,7 @@ while syote != "":
 
     syote = input("Anna luku: ")
 
-# Tässä koodi laskee, kumpu luku on pienin ja suurin.
+# Tässä koodi laskee, kumpi luku on pienin ja suurin.
 if pienin != math.inf:
     print(f"Pienin: {pienin}")
     print(f"Suurin: {suurin}")
