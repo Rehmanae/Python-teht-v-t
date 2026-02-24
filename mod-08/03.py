@@ -6,11 +6,10 @@ yhteys = mysql.connector.connect(
     host="localhost",
     port=3306,
     database="flight_game",
-    user="perususer",
-    password="salainen",
+    user="root",
+    password="Rehman087565426.",
     autocommit=True
 )
-
 # Kysytään kaksi ICAO-koodia
 icao1 = input("Anna ensimmäisen lentokentän ICAO-koodi: ")
 icao2 = input("Anna toisen lentokentän ICAO-koodi: ")
