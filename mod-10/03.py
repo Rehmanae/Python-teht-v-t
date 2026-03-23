@@ -45,7 +45,7 @@ class Talo:
             hissi.siirry(hissi.alin)
 
 
-# testaus
+# Pääohjlema
 rakennus = Talo(1, 10, 3)
 
 rakennus.aja(0, 7)
